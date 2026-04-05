@@ -1,10 +1,11 @@
 <h1 align="center">Feng GAO</h1>
 
-<p align="center"><strong>Professor of Medical AI @ SYSU</strong></p>
-<p align="center">Building clinically grounded AI, agent-first research systems, and auditable workflow infrastructure.</p>
 <p align="center">
   <img src="./assets/usage-card.svg" alt="AI usage card for @gaofeng21cn" width="640" />
 </p>
+<p align="center"><strong>Professor of Medical AI @ SYSU</strong></p>
+<p align="center">Building clinically grounded AI, agent-first research systems, and auditable workflow infrastructure.</p>
+
 
 <table>
   <tr>
