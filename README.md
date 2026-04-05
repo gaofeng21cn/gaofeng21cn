@@ -32,7 +32,7 @@ The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) for the top-level gateway and federation model of a one-person research lab
-- `Research Foundry` as the emerging framework layer for `Research Ops`, currently surfaced publicly through [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience)
+- [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the current public surface for `Research Foundry`, the emerging framework layer for `Research Ops`
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) for the emerging visual-deliverable gateway
 
 ## One Person Lab
@@ -52,7 +52,7 @@ It currently defines:
 At the current stage it does not yet stand as a separate public repository. Instead, it is exposed through:
 
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the first mature medical implementation
-- the corresponding top-level positioning in [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab)
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the corresponding top-level positioning
 
 ## Current Domain Surfaces
 
