@@ -15,7 +15,7 @@
     </td>
     <td width="25%" valign="top">
       <strong>Research Ops Framework</strong><br/>
-      目前以 <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a> 的形式公开露出
+      Currently surfaced publicly through <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a>
     </td>
     <td width="25%" valign="top">
       <strong>Visual Deliverable Surface</strong><br/>
