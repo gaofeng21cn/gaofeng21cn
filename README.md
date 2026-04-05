@@ -10,11 +10,11 @@
       <a href="https://fenggaolab.org">fenggaolab.org</a>
     </td>
     <td width="33%" valign="top">
-      <strong>Current Blueprint</strong><br/>
+      <strong>Top-Level Gateway</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
     </td>
     <td width="33%" valign="top">
-      <strong>Current Active Project</strong><br/>
+      <strong>Current Active Research Surface</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>MedAutoScience</code></a>
     </td>
   </tr>
@@ -27,22 +27,23 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) for the top-level blueprint of a one-person research lab
-- [`MedAutoScience`](https://github.com/gaofeng21cn/med-autoscience) for the current active implementation in medical research operations
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) for the top-level gateway and federation model of a one-person research lab
+- [`MedAutoScience`](https://github.com/gaofeng21cn/med-autoscience) for the active `Research Ops` gateway
+- [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) for the emerging visual-deliverable gateway
 
 ## One Person Lab
 
-[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is a top-level blueprint for organizing a one-person research lab as an agent-first, human-auditable system.
+[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is the top-level gateway for how a one-person research lab routes work into independent domain systems.
 
-It is intended to define:
+It currently defines:
 
 - the task topology of a one-person research lab
 - the shared foundation across research, grant, thesis, review, and presentation workflows
-- the relationship between current and future project surfaces
+- the federation relationship between current and future domain gateways
 
-## Current Implemented Surface
+## Current Domain Surfaces
 
-[`MedAutoScience`](https://github.com/gaofeng21cn/med-autoscience) is currently the first mature project under the `One Person Lab` umbrella.
+[`MedAutoScience`](https://github.com/gaofeng21cn/med-autoscience) is the current active `Research Ops` gateway under the `One Person Lab` umbrella.
 
 It focuses on medical research operations, including:
 
@@ -51,6 +52,18 @@ It focuses on medical research operations, including:
 - study progression
 - evidence packaging
 - manuscript and submission delivery
+
+[`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) is the emerging visual-deliverable gateway under the same umbrella.
+
+It currently focuses on:
+
+- `ppt_deck` and presentation-grade visual delivery
+- visual deliverable governance and review loops
+- agent-first production of audited visual artifacts
+
+Together, the current public shape is:
+
+`One Person Lab -> domain gateways -> domain harnesses`
 
 ## Research Focus
 
@@ -65,3 +78,4 @@ My current work is centered on:
 - Academic site: [fenggaolab.org](https://fenggaolab.org)
 - One Person Lab: [gaofeng21cn/one-person-lab](https://github.com/gaofeng21cn/one-person-lab)
 - MedAutoScience: [gaofeng21cn/med-autoscience](https://github.com/gaofeng21cn/med-autoscience)
+- RedCube AI: [gaofeng21cn/redcube-ai](https://github.com/gaofeng21cn/redcube-ai)
