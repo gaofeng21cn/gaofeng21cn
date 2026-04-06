@@ -27,3 +27,18 @@ test("renderUsageCard outputs the expected profile usage labels and formatted va
   assert.match(svg, /font-size="13" font-weight="600"[^>]*>Requests<\/text>/);
   assert.match(svg, /font-size="30" font-weight="700"[^>]*>176,833<\/text>/);
 });
+
+test("renderUsageCard normalizes metric inputs expressed as strings with units", () => {
+  const svg = renderUsageCard({
+    handle: "@gaofeng21cn",
+    requests: "186.461K",
+    tokens: "17432.9M",
+    costUsd: "$15.576011K",
+    updated: "2026-04-06",
+  });
+
+  assert.match(svg, /Updated 2026-04-06/);
+  assert.match(svg, /186,461/);
+  assert.match(svg, /17\.43B/);
+  assert.match(svg, /\$15\.58K/);
+});

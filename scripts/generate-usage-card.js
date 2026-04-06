@@ -3,6 +3,11 @@ const path = require("node:path");
 
 const CARD_WIDTH = 640;
 const CARD_HEIGHT = 156;
+const UNIT_MULTIPLIERS = {
+  K: 1e3,
+  M: 1e6,
+  B: 1e9,
+};
 
 function escapeXml(value) {
   return String(value)
@@ -37,8 +42,50 @@ function formatUsd(value) {
   return `$${Number(value).toFixed(2)}`;
 }
 
+function parseMetricValue(value) {
+  if (typeof value === "number") {
+    if (!Number.isFinite(value)) {
+      throw new TypeError(`Metric value must be finite: ${value}`);
+    }
+    return value;
+  }
+
+  if (typeof value !== "string") {
+    throw new TypeError(`Unsupported metric value type: ${typeof value}`);
+  }
+
+  const trimmed = value.trim();
+  const match = trimmed.match(
+    /^\s*(\$)?\s*([+-]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)\s*([kmb])?\s*$/i
+  );
+
+  if (!match) {
+    throw new TypeError(`Invalid metric value format: ${value}`);
+  }
+
+  const numericPortion = Number(match[2].replaceAll(",", ""));
+  const unit = match[3] ? match[3].toUpperCase() : null;
+  const multiplier = unit ? UNIT_MULTIPLIERS[unit] : 1;
+  const parsed = numericPortion * multiplier;
+
+  if (!Number.isFinite(parsed)) {
+    throw new TypeError(`Metric value must be finite after parsing: ${value}`);
+  }
+
+  return parsed;
+}
+
+function normalizeUsageCardData(data) {
+  return {
+    ...data,
+    requests: parseMetricValue(data.requests),
+    tokens: parseMetricValue(data.tokens),
+    costUsd: parseMetricValue(data.costUsd),
+  };
+}
+
 function readCardData(dataPath) {
-  return JSON.parse(fs.readFileSync(dataPath, "utf8"));
+  return normalizeUsageCardData(JSON.parse(fs.readFileSync(dataPath, "utf8")));
 }
 
 function renderMetricBox({ x, label, value, valueColor }) {
@@ -51,29 +98,30 @@ function renderMetricBox({ x, label, value, valueColor }) {
 }
 
 function renderUsageCard(data) {
+  const normalizedData = normalizeUsageCardData(data);
   const metrics = [
     {
       x: 24,
       label: "Requests",
-      value: formatRequests(data.requests),
+      value: formatRequests(normalizedData.requests),
       valueColor: "#24292F",
     },
     {
       x: 227,
       label: "Tokens",
-      value: formatTokens(data.tokens),
+      value: formatTokens(normalizedData.tokens),
       valueColor: "#0969DA",
     },
     {
       x: 430,
       label: "Cost",
-      value: formatUsd(data.costUsd),
+      value: formatUsd(normalizedData.costUsd),
       valueColor: "#1A7F37",
     },
   ];
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${CARD_WIDTH}" height="${CARD_HEIGHT}" viewBox="0 0 ${CARD_WIDTH} ${CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI usage card for ${escapeXml(data.handle)}">
+<svg width="${CARD_WIDTH}" height="${CARD_HEIGHT}" viewBox="0 0 ${CARD_WIDTH} ${CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI usage card for ${escapeXml(normalizedData.handle)}">
   <rect x="0.5" y="0.5" width="639" height="155" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
   <rect x="1" y="1" width="638" height="154" rx="15.5" fill="url(#cardGlow)"/>
   <defs>
@@ -84,9 +132,9 @@ function renderUsageCard(data) {
   </defs>
 
   <text x="24" y="24" fill="#24292F" font-size="13" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">AI Usage</text>
-  <text x="616" y="24" fill="#57606A" font-size="11" font-weight="500" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Updated ${escapeXml(data.updated)}</text>
+  <text x="616" y="24" fill="#57606A" font-size="11" font-weight="500" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Updated ${escapeXml(normalizedData.updated)}</text>
 
-  <text x="24" y="47" fill="#24292F" font-size="18" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">${escapeXml(data.handle)}</text>
+  <text x="24" y="47" fill="#24292F" font-size="18" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">${escapeXml(normalizedData.handle)}</text>
   <line x1="24" y1="58.5" x2="616" y2="58.5" stroke="#D8DEE4"/>
 
 ${metrics.map(renderMetricBox).join("\n")}
@@ -112,6 +160,8 @@ module.exports = {
   formatRequests,
   formatTokens,
   formatUsd,
+  parseMetricValue,
+  normalizeUsageCardData,
   renderUsageCard,
   readCardData,
 };
