@@ -2,7 +2,9 @@
 
 <p align="center"><strong>Professor of Medical AI @ SYSU</strong></p>
 <p align="center">
-  <img src="./assets/usage-card.svg" alt="AI usage card for @gaofeng21cn" width="640" />
+  <a href="https://tokscale.ai/u/gaofeng21cn">
+    <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
+  </a>
 </p>
 <p align="center">Building clinically grounded AI, agent-first research systems, and auditable workflow infrastructure.</p>
 
