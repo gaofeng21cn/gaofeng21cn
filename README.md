@@ -41,6 +41,7 @@ The current public surfaces are:
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) for the top-level gateway and federation model of a one-person research lab
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the current public surface for `Research Foundry`, the emerging framework layer for `Research Ops`
+- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as the newly opened document-first scaffold for the future medical `Grant Ops` surface under `Grant Foundry`
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) for the emerging visual-deliverable gateway
 
 ## One Person Lab
@@ -61,6 +62,15 @@ At the current stage it does not yet stand as a separate public repository. Inst
 
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the first mature medical implementation
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the corresponding top-level positioning
+
+## Grant Ops Future Surface
+
+`Grant Foundry` is the future framework line being shaped for `Grant Ops`.
+
+Its first public scaffold is:
+
+- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as the future medical, author-side, proposal-facing grant surface
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level gateway where the independent `Grant Ops` boundary remains frozen without claiming admission too early
 
 ## Current Domain Surfaces
 
@@ -88,6 +98,10 @@ Together, the current public shape is:
 
 alongside:
 
+`One Person Lab -> Grant Foundry -> Med Auto Grant` (future medical grant surface scaffold)
+
+alongside:
+
 `One Person Lab -> RedCube AI`
 
 ## Research Focus
@@ -103,4 +117,5 @@ My current work is centered on:
 - Academic site: [fenggaolab.org](https://fenggaolab.org)
 - One Person Lab: [gaofeng21cn/one-person-lab](https://github.com/gaofeng21cn/one-person-lab)
 - Med Auto Science: [gaofeng21cn/med-autoscience](https://github.com/gaofeng21cn/med-autoscience)
+- Med Auto Grant: [gaofeng21cn/med-autogrant](https://github.com/gaofeng21cn/med-autogrant)
 - RedCube AI: [gaofeng21cn/redcube-ai](https://github.com/gaofeng21cn/redcube-ai)
