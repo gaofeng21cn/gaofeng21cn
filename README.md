@@ -58,7 +58,7 @@ It currently defines:
 
 `Research Foundry` is the framework layer being formalized for `Research Ops`.
 
-At the current stage it does not yet stand as a separate public repository. Instead, it is exposed through:
+At the current stage it is surfaced through:
 
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the first mature medical implementation
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the corresponding top-level positioning
@@ -70,7 +70,7 @@ At the current stage it does not yet stand as a separate public repository. Inst
 Its first public scaffold is:
 
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as the future medical, author-side, proposal-facing grant surface
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level gateway where the independent `Grant Ops` boundary remains frozen without claiming admission too early
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level gateway where the independent `Grant Ops` boundary stays on its candidate-definition lane
 
 ## Current Domain Surfaces
 
