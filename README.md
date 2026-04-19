@@ -44,8 +44,6 @@ The current public surfaces are:
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the active medical `Research Ops` domain module under `Research Foundry`
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as the active medical `Grant Ops` domain module under `Grant Foundry`
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as the active visual-deliverable domain module under `Presentation Foundry`
-- `Codex` as the default interaction and execution host across the family
-- `Hermes-Agent` as the explicit online gateway and long-running supervision lane
 
 ## One Person Lab
 
