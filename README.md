@@ -6,7 +6,7 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded AI, one-person-lab workbenches, domain agents, and auditable workflow infrastructure.</p>
+<p align="center">Building clinically grounded AI, one-person-lab workbenches, independent domain agents, and auditable workflow infrastructure.</p>
 
 
 <table>
@@ -16,7 +16,7 @@
       <a href="https://fenggaolab.org">fenggaolab.org</a>
     </td>
     <td width="25%" valign="top">
-      <strong>OPL Shell</strong><br/>
+      <strong>OPL Workbench</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
     </td>
     <td width="25%" valign="top">
@@ -40,57 +40,57 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level GUI and management shell for a one-person research lab
-- [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as the active medical `Research Ops` domain module under `Research Foundry`
-- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as the active medical `Grant Ops` domain module under `Grant Foundry`
-- [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as the active visual-deliverable domain module under `Presentation Foundry`
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level workbench for starting work, keeping progress visible, and collecting deliverables
+- [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single MAS app skill
+- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single Med Auto Grant app skill
+- [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
 
 ## One Person Lab
 
-[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is the top-level GUI shell, management surface, family gateway, and module catalog for a one-person research lab.
+[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is the top-level workbench for a one-person research lab: one place to start work, keep progress legible, and collect outputs while specialized product families keep their own methods and deliverables.
 
 It currently owns:
 
-- the public entry shell for everyday collaboration, general tasks, and specialized workflows
-- the module catalog for active domain agents and future workstreams
-- workspace-level progress feedback, file delivery, settings, and module management
-- family-level naming, shared helper language, and machine-readable handoff contracts
-- top-level routing and federation language across current and future domain modules
+- everyday collaboration, general tasks, and workspace-based work
+- module installation, skill sync, service setup, and health checks
+- workspace, session, progress, and artifact discovery surfaces
+- family-level session/runtime/projection orchestration plus shared modules, contracts, and indexes
+- visibility for Research, Grant, and Presentation Foundries from one workbench
 
-Domain modules keep their own canonical domain truth, audit writeback, runtime surfaces, and delivery records.
+Domain agents keep their own canonical domain truth, stable callable surfaces, audit writeback, runtime records, and delivery boundaries.
 
 ## Current System Shape
 
 ```text
 Human
-  -> One Person Lab shell
-      -> Everyday Codex conversation
-      -> General Codex tasks
-      -> Research Foundry -> Med Auto Science
-      -> Grant Foundry -> Med Auto Grant
-      -> Presentation Foundry -> RedCube AI
-      -> Progress / Files / Settings / Module Catalog
+  -> One Person Lab workbench
+      -> General work and workspace-based tasks
+      -> Progress, files, settings, health, and module management
+      -> Explicit domain-agent activation
+          -> Research Foundry -> Med Auto Science app skill
+          -> Grant Foundry -> Med Auto Grant app skill
+          -> Presentation Foundry -> redcube-ai app skill
 
-Default execution:
-  Domain module -> Codex default execution
+Default local execution:
+  Codex-default session/runtime semantics
 
-Online supervision:
-  Explicit long-running lane -> Hermes-Agent gateway
+Integration/reference layer:
+  CLI, MCP, product-entry contracts, projections, and repo-tracked schemas
 ```
 
 ## Active Domain Modules
 
 | Product family | Active module | Public role | Main outputs |
 | --- | --- | --- | --- |
-| `Research Foundry` | [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) | Medical `Research Ops` domain module | Study workspaces, evidence packages, manuscripts, submission materials |
-| `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Medical `Grant Ops` domain module | Grant directions, proposal drafts, review packs, submission-ready packages |
-| `Presentation Foundry` | [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) | Visual-deliverable domain module | Slide decks, scripts, reviewable visual artifacts, export bundles |
+| `Research Foundry` | [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) | Independent medical research domain agent | Study workspaces, evidence packages, manuscripts, submission materials |
+| `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Independent medical grant domain agent | Grant directions, proposal drafts, review packs, submission-ready packages |
+| `Presentation Foundry` | [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) | Independent visual-deliverable domain agent | Slide decks, scripts, reviewable visual artifacts, export bundles |
 
 Future workstreams such as `Thesis Foundry` and `Review Foundry` stay in definition until their domain package and public boundary are ready.
 
 ## Domain Lines
 
-[`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) is the current active medical implementation on the `Research Foundry` line under the `One Person Lab` umbrella.
+[`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) is the current active medical research implementation on the `Research Foundry` line.
 
 It focuses on medical research operations, including:
 
@@ -100,7 +100,7 @@ It focuses on medical research operations, including:
 - evidence packaging
 - manuscript and submission delivery
 
-[`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) is the active medical grant-writing implementation on the `Grant Foundry` line.
+[`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) is the active medical grant implementation on the `Grant Foundry` line.
 
 It focuses on author-side grant operations, including:
 
@@ -120,15 +120,15 @@ It currently focuses on:
 
 Together, the current public shape is:
 
-`One Person Lab -> Research Foundry -> Med Auto Science`
+`One Person Lab -> explicit MAS activation -> Med Auto Science`
 
 alongside:
 
-`One Person Lab -> Grant Foundry -> Med Auto Grant`
+`One Person Lab -> explicit MAG activation -> Med Auto Grant`
 
 alongside:
 
-`One Person Lab -> Presentation Foundry -> RedCube AI`
+`One Person Lab -> explicit RCA activation -> RedCube AI`
 
 ## Research Focus
 
