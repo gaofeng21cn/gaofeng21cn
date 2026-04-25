@@ -40,7 +40,7 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level workbench for starting work, keeping progress visible, and collecting deliverables
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level workbench for starting work, keeping progress visible, collecting deliverables, and explicitly activating domain agents
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single MAS app skill
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single Med Auto Grant app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
@@ -52,9 +52,9 @@ The current public surfaces are:
 It currently owns:
 
 - everyday collaboration, general tasks, and workspace-based work
-- module installation, skill sync, service setup, and health checks
+- skill sync, explicit domain-agent activation, service setup, and health checks
 - workspace, session, progress, and artifact discovery surfaces
-- family-level session/runtime/projection orchestration plus shared modules, contracts, and indexes
+- family-level session/runtime/projection orchestration plus shared contracts, indexes, and thin coordination surfaces
 - visibility for Research, Grant, and Presentation Foundries from one workbench
 
 Domain agents keep their own canonical domain truth, stable callable surfaces, audit writeback, runtime records, and delivery boundaries.
@@ -65,7 +65,7 @@ Domain agents keep their own canonical domain truth, stable callable surfaces, a
 Human
   -> One Person Lab workbench
       -> General work and workspace-based tasks
-      -> Progress, files, settings, health, and module management
+      -> Progress, files, settings, health, and domain-agent activation
       -> Explicit domain-agent activation
           -> Research Foundry -> Med Auto Science app skill
           -> Grant Foundry -> Med Auto Grant app skill
@@ -78,9 +78,9 @@ Integration/reference layer:
   CLI, MCP, product-entry contracts, projections, and repo-tracked schemas
 ```
 
-## Active Domain Modules
+## Active Domain Agents
 
-| Product family | Active module | Public role | Main outputs |
+| Product family | Active domain agent | Public role | Main outputs |
 | --- | --- | --- | --- |
 | `Research Foundry` | [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) | Independent medical research domain agent | Study workspaces, evidence packages, manuscripts, submission materials |
 | `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Independent medical grant domain agent | Grant directions, proposal drafts, review packs, submission-ready packages |
