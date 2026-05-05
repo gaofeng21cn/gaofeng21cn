@@ -40,7 +40,7 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the top-level workbench for starting work, keeping progress visible, collecting deliverables, and explicitly activating domain agents
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the App-first top-level workbench for starting work, keeping progress visible, collecting deliverables, managing OPL modules/skills, and explicitly activating domain agents
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single MAS app skill
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single Med Auto Grant app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
@@ -52,9 +52,10 @@ The current public surfaces are:
 It currently owns:
 
 - everyday collaboration, general tasks, and workspace-based work
-- skill sync, explicit domain-agent activation, service setup, and health checks
+- App-first setup, skill sync, explicit domain-agent activation, module installation, service readiness, and health checks
 - workspace, session, progress, and artifact discovery surfaces
 - family-level session/runtime/projection orchestration plus shared contracts, indexes, and thin coordination surfaces
+- a thin OPL Runtime Manager projection layer for supported external Hermes runtime/gateway readiness, without owning domain truth or scheduler semantics
 - visibility for Research, Grant, and Presentation Foundries from one workbench
 
 Domain agents keep their own canonical domain truth, stable callable surfaces, audit writeback, runtime records, and delivery boundaries.
@@ -75,7 +76,7 @@ Default local execution:
   Codex-default session/runtime semantics
 
 Integration/reference layer:
-  CLI, MCP, product-entry contracts, projections, and repo-tracked schemas
+  CLI, MCP, product-entry contracts, OPL Runtime Manager projections, and repo-tracked schemas
 ```
 
 ## Active Domain Agents
@@ -86,7 +87,9 @@ Integration/reference layer:
 | `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Independent medical grant domain agent | Grant directions, proposal drafts, review packs, submission-ready packages |
 | `Presentation Foundry` | [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) | Independent visual-deliverable domain agent | Slide decks, scripts, reviewable visual artifacts, export bundles |
 
-Future workstreams such as `Thesis Foundry` and `Review Foundry` stay in definition until their domain package and public boundary are ready.
+`MedDeepScientist` remains a backend/oracle companion under `Med Auto Science`; it is maintained as a MAS dependency, not a top-level public domain agent.
+
+Future workstreams such as `IP Foundry`, `Award Foundry`, `Thesis Foundry`, and `Review Foundry` stay in definition until their domain package and public boundary are ready.
 
 ## Domain Lines
 
@@ -117,6 +120,8 @@ It currently focuses on:
 - `ppt_deck` and presentation-grade visual delivery
 - visual deliverable governance and review loops
 - agent-first production of audited visual artifacts
+
+Distribution-wise, the domain agents are consumed through OPL-managed module installation and current Packages/GHCR-backed coordinates rather than separate user-installable standalone release channels.
 
 Together, the current public shape is:
 
