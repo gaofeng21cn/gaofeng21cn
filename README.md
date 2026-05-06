@@ -41,8 +41,8 @@ The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the App-first top-level workbench for starting work, keeping progress visible, collecting deliverables, managing OPL modules/skills, and explicitly activating domain agents
-- [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single MAS app skill
-- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single Med Auto Grant app skill
+- [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single `med-autoscience` app skill
+- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single `med-atuogrant` app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
 
 ## One Person Lab
