@@ -87,7 +87,7 @@ Integration/reference layer:
 | `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Independent medical grant domain agent | Grant directions, proposal drafts, review packs, submission-ready packages |
 | `Presentation Foundry` | [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) | Independent visual-deliverable domain agent | Slide decks, scripts, reviewable visual artifacts, export bundles |
 
-`MedDeepScientist` remains a backend/oracle companion under `Med Auto Science`; it is maintained as a MAS dependency, not a top-level public domain agent.
+`MedDeepScientist` is no longer a MAS default runtime dependency. It remains only as a MAS-declared source-provenance, historical-fixture, explicit archive-import, backend-audit, upstream-intake, and parity-oracle reference, not as a top-level public domain agent.
 
 Future workstreams such as `IP Foundry`, `Award Foundry`, `Thesis Foundry`, and `Review Foundry` stay in definition until their domain package and public boundary are ready.
 
