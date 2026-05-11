@@ -6,7 +6,7 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded AI, one-person-lab workbenches, independent domain agents, and auditable workflow infrastructure.</p>
+<p align="center">Building clinically grounded AI, Codex-first stage-led agent infrastructure, independent domain agents, and auditable workflows for high-value knowledge work.</p>
 
 
 <table>
@@ -40,23 +40,22 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the App-first top-level workbench for starting work, keeping progress visible, collecting deliverables, managing OPL modules/skills, and explicitly activating domain agents
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as a Codex-first, stage-led agent runtime framework for automated delivery of high-value knowledge work
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single `med-autoscience` app skill
-- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single `med-atuogrant` app skill
+- [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single `med-autogrant` app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
 
 ## One Person Lab
 
-[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is the top-level workbench for a one-person research lab: one place to start work, keep progress legible, and collect outputs while specialized product families keep their own methods and deliverables.
+[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is a complete agent runtime framework for a one-person research lab and other high-value knowledge work. It is Codex-first and stage-led: large tasks are organized into stages that resemble how human experts execute the work, and Codex CLI is the smallest execution unit inside each stage.
 
 It currently owns:
 
-- everyday collaboration, general tasks, and workspace-based work
-- App-first setup, skill sync, explicit domain-agent activation, module installation, service readiness, and health checks
-- workspace, session, progress, and artifact discovery surfaces
-- family-level session/runtime/projection orchestration plus shared contracts, indexes, and thin coordination surfaces
-- a thin OPL Runtime Manager projection layer for supported external Hermes runtime/gateway readiness, without owning domain truth or scheduler semantics
-- visibility for Research, Grant, and Presentation Foundries from one workbench
+- the framework-level stage model, session/runtime coordination, progress projection, and artifact discovery surfaces
+- Codex-first execution through CLI/MCP/product-entry contracts, app skills, and explicit domain-agent activation
+- shared family contracts, indexes, provider adapters, health checks, and thin coordination surfaces
+- support for external runtime providers where useful, without moving domain truth out of the owning domain agents
+- visibility for Research, Grant, and Presentation Foundries from one framework surface
 
 Domain agents keep their own canonical domain truth, stable callable surfaces, audit writeback, runtime records, and delivery boundaries.
 
@@ -64,19 +63,20 @@ Domain agents keep their own canonical domain truth, stable callable surfaces, a
 
 ```text
 Human
-  -> One Person Lab workbench
-      -> General work and workspace-based tasks
-      -> Progress, files, settings, health, and domain-agent activation
-      -> Explicit domain-agent activation
+  -> One Person Lab framework
+      -> Codex-first session/runtime
+      -> Stage-led task execution
+      -> Progress, files, settings, health, and artifact discovery
+      -> Explicit domain-agent activation when specialized work is needed
           -> Research Foundry -> Med Auto Science app skill
           -> Grant Foundry -> Med Auto Grant app skill
           -> Presentation Foundry -> redcube-ai app skill
 
-Default local execution:
-  Codex-default session/runtime semantics
+Execution unit:
+  Codex CLI inside a stage
 
 Integration/reference layer:
-  CLI, MCP, product-entry contracts, OPL Runtime Manager projections, and repo-tracked schemas
+  CLI, MCP, product-entry contracts, runtime provider adapters, OPL Runtime Manager projections, and repo-tracked schemas
 ```
 
 ## Active Domain Agents
@@ -121,7 +121,7 @@ It currently focuses on:
 - visual deliverable governance and review loops
 - agent-first production of audited visual artifacts
 
-Distribution-wise, the domain agents are consumed through OPL-managed module installation and current Packages/GHCR-backed coordinates rather than separate user-installable standalone release channels.
+Distribution-wise, the domain agents are consumed through OPL-managed module installation and current Packages/GHCR-backed coordinates, while each domain repo keeps its own authority over domain truth and delivery readiness.
 
 Together, the current public shape is:
 
