@@ -16,7 +16,7 @@
       <a href="https://fenggaolab.org">fenggaolab.org</a>
     </td>
     <td width="25%" valign="top">
-      <strong>OPL Workbench</strong><br/>
+      <strong>OPL Framework</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
     </td>
     <td width="25%" valign="top">
@@ -142,7 +142,7 @@ My current work is centered on:
 - clinically grounded AI for colorectal cancer
 - agent-first, human-auditable domain systems
 - medical research workflow design
-- one-person-lab infrastructure for research, grant, and visual delivery work
+- Codex-first, stage-led agent infrastructure for high-value knowledge work
 
 ## Selected Links
 
