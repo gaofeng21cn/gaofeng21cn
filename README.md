@@ -6,25 +6,29 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded AI, Codex-first stage-led agent infrastructure, independent domain agents, and auditable workflows for high-value knowledge work.</p>
+<p align="center">Building clinically grounded AI, Codex-first stage-led agent infrastructure, the One Person Lab desktop workbench, independent domain agents, and auditable workflows for high-value knowledge work.</p>
 
 
 <table>
   <tr>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <strong>Academic Site</strong><br/>
       <a href="https://fenggaolab.org">fenggaolab.org</a>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <strong>OPL Framework</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
+      <strong>OPL App</strong><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><code>One Person Lab App</code></a>
+    </td>
+    <td width="20%" valign="top">
       <strong>Medical Domain Agents</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       <a href="https://github.com/gaofeng21cn/med-autogrant"><code>Med Auto Grant</code></a>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <strong>Visual Domain Agent</strong><br/>
       <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a>
     </td>
@@ -40,14 +44,15 @@ This profile serves as a public entry point for my academic and technical work i
 The current public surfaces are:
 
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
-- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as a Codex-first, stage-led agent runtime framework for automated delivery of high-value knowledge work
+- [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the Codex-first, stage-led OPL Framework for automated delivery of high-value knowledge work
+- [`One Person Lab App`](https://github.com/gaofeng21cn/one-person-lab-app) as the desktop workbench, installer, release, and user-facing product repository for OPL
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single `med-autoscience` app skill
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single `med-autogrant` app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
 
 ## One Person Lab
 
-[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is a complete agent runtime framework for a one-person research lab and other high-value knowledge work. It is Codex-first and stage-led: large tasks are organized into stages that resemble how human experts execute the work, and Codex CLI is the smallest execution unit inside each stage.
+[`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) is the OPL Framework: a complete agent runtime framework for a one-person research lab and other high-value knowledge work. It is Codex-first and stage-led: large tasks are organized into stages that resemble how human experts execute the work, and Codex CLI is the smallest execution unit inside each stage.
 
 It currently owns:
 
@@ -55,14 +60,33 @@ It currently owns:
 - Codex-first execution through CLI/MCP/product-entry contracts, app skills, and explicit domain-agent activation
 - shared family contracts, indexes, provider adapters, health checks, and thin coordination surfaces
 - support for external runtime providers where useful, without moving domain truth out of the owning domain agents
-- visibility for Research, Grant, and Presentation Foundries from one framework surface
+- machine-readable interfaces consumed by the desktop App and other shells
+
+[`One Person Lab App`](https://github.com/gaofeng21cn/one-person-lab-app) is the separate user-facing desktop product. It owns the installer, desktop packages, release assets, updater metadata, first-run checks, screenshots, and user documentation. It packages the OPL Framework, domain agents, and companion tools into a workbench for daily use, while the framework repo keeps runtime, activation, contracts, module management, and machine-readable App interfaces.
 
 Domain agents keep their own canonical domain truth, stable callable surfaces, audit writeback, runtime records, and delivery boundaries.
+
+The public product model is:
+
+```text
+OPL Framework -> One Person Lab App -> Foundry Agents
+```
 
 ## Current System Shape
 
 ```text
 Human
+  -> One Person Lab App for daily workbench use
+      -> One Person Lab framework
+          -> Codex-first session/runtime
+          -> Stage-led task execution
+          -> Progress, files, settings, health, and artifact discovery
+          -> Explicit domain-agent activation when specialized work is needed
+              -> Research Foundry -> Med Auto Science app skill
+              -> Grant Foundry -> Med Auto Grant app skill
+              -> Presentation Foundry -> redcube-ai app skill
+
+Developer / operator path
   -> One Person Lab framework
       -> Codex-first session/runtime
       -> Stage-led task execution
@@ -76,7 +100,7 @@ Execution unit:
   Codex CLI inside a stage
 
 Integration/reference layer:
-  CLI, MCP, product-entry contracts, runtime provider adapters, OPL Runtime Manager projections, and repo-tracked schemas
+  CLI, MCP, product-entry contracts, runtime provider adapters, OPL Runtime Manager projections, App-consumed interfaces, and repo-tracked schemas
 ```
 
 ## Active Domain Agents
@@ -121,7 +145,7 @@ It currently focuses on:
 - visual deliverable governance and review loops
 - agent-first production of audited visual artifacts
 
-Distribution-wise, the domain agents are consumed through OPL-managed module installation and current Packages/GHCR-backed coordinates, while each domain repo keeps its own authority over domain truth and delivery readiness.
+Distribution-wise, the App repository owns desktop packaging, releases, updater metadata, and user-facing installation. The domain agents are consumed through OPL-managed module installation and current Packages/GHCR-backed coordinates, while each domain repo keeps its own authority over domain truth and delivery readiness.
 
 Together, the current public shape is:
 
@@ -148,6 +172,7 @@ My current work is centered on:
 
 - Academic site: [fenggaolab.org](https://fenggaolab.org)
 - One Person Lab: [gaofeng21cn/one-person-lab](https://github.com/gaofeng21cn/one-person-lab)
+- One Person Lab App: [gaofeng21cn/one-person-lab-app](https://github.com/gaofeng21cn/one-person-lab-app)
 - Med Auto Science: [gaofeng21cn/med-autoscience](https://github.com/gaofeng21cn/med-autoscience)
 - Med Auto Grant: [gaofeng21cn/med-autogrant](https://github.com/gaofeng21cn/med-autogrant)
 - RedCube AI: [gaofeng21cn/redcube-ai](https://github.com/gaofeng21cn/redcube-ai)
