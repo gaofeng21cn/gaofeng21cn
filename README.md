@@ -6,7 +6,7 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded medical AI and Codex-first agent systems for auditable research, grant, and visual knowledge work.</p>
+<p align="center">Building clinically grounded medical AI and One Person Lab: a stage-led framework and desktop workbench for auditable knowledge delivery.</p>
 
 <table>
   <tr>
@@ -40,13 +40,13 @@
 
 ## Work
 
-I work on medical AI for colorectal cancer and on agent-first infrastructure for high-value knowledge work. My current technical focus is One Person Lab: a Codex-first, stage-led framework that connects a desktop workbench with independent domain agents.
+I work on medical AI for colorectal cancer and on One Person Lab: a stage-led system for turning high-value knowledge work into recoverable, auditable expert stages. OPL connects a shared framework, a desktop workbench, and independent Foundry Agents for research, grants, presentations, and future professional workflows.
 
 ## Projects
 
 | Project | Role |
 | --- | --- |
-| [One Person Lab](https://github.com/gaofeng21cn/one-person-lab) | Framework-level runtime, activation, contracts, progress projection, and domain-agent coordination |
+| [One Person Lab](https://github.com/gaofeng21cn/one-person-lab) | Stage-led framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
 | [One Person Lab App](https://github.com/gaofeng21cn/one-person-lab-app) | Desktop workbench, installer, release assets, updater metadata, and user-facing product surface |
 | [OPL Meta Agent](https://github.com/gaofeng21cn/opl-meta-agent) | Agent Foundry for building and testing OPL-compatible agents |
 | [Med Auto Science](https://github.com/gaofeng21cn/med-autoscience) | Medical research domain agent for study workspaces, evidence packages, manuscripts, and submission materials |
@@ -57,7 +57,7 @@ I work on medical AI for colorectal cancer and on agent-first infrastructure for
 
 - Clinically grounded AI for colorectal cancer
 - Human-auditable medical research and grant workflows
-- Codex-first, stage-led agent infrastructure
+- Stage-led systems for recoverable, auditable knowledge delivery
 - Independent domain agents with clear authority boundaries
 
 ## Links
