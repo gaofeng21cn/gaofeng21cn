@@ -6,29 +6,33 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded AI, Codex-first stage-led agent infrastructure, the One Person Lab desktop workbench, independent domain agents, and auditable workflows for high-value knowledge work.</p>
+<p align="center">Building clinically grounded AI, Codex-first stage-led agent infrastructure, the One Person Lab desktop workbench, meta-agent tooling, independent domain agents, and auditable workflows for high-value knowledge work.</p>
 
 
 <table>
   <tr>
-    <td width="20%" valign="top">
+    <td width="16%" valign="top">
       <strong>Academic Site</strong><br/>
       <a href="https://fenggaolab.org">fenggaolab.org</a>
     </td>
-    <td width="20%" valign="top">
+    <td width="16%" valign="top">
       <strong>OPL Framework</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
     </td>
-    <td width="20%" valign="top">
+    <td width="16%" valign="top">
       <strong>OPL App</strong><br/>
       <a href="https://github.com/gaofeng21cn/one-person-lab-app"><code>One Person Lab App</code></a>
     </td>
-    <td width="20%" valign="top">
+    <td width="16%" valign="top">
+      <strong>Agent Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><code>OPL Meta Agent</code></a>
+    </td>
+    <td width="18%" valign="top">
       <strong>Medical Domain Agents</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       <a href="https://github.com/gaofeng21cn/med-autogrant"><code>Med Auto Grant</code></a>
     </td>
-    <td width="20%" valign="top">
+    <td width="18%" valign="top">
       <strong>Visual Domain Agent</strong><br/>
       <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a>
     </td>
@@ -46,6 +50,7 @@ The current public surfaces are:
 - [`fenggaolab.org`](https://fenggaolab.org) for academic information
 - [`One Person Lab`](https://github.com/gaofeng21cn/one-person-lab) as the Codex-first, stage-led OPL Framework for automated delivery of high-value knowledge work
 - [`One Person Lab App`](https://github.com/gaofeng21cn/one-person-lab-app) as the desktop workbench, installer, release, and user-facing product repository for OPL
+- [`OPL Meta Agent`](https://github.com/gaofeng21cn/opl-meta-agent) as the meta-agent for building new OPL-compatible agents, taking over Agent Lab testing, and organizing mechanism self-evolution
 - [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) as an independent medical research domain agent with a single `med-autoscience` app skill
 - [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) as an independent medical grant domain agent with a single `med-autogrant` app skill
 - [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) as an independent visual-deliverable domain agent with a single `redcube-ai` app skill
@@ -85,6 +90,7 @@ Human
               -> Research Foundry -> Med Auto Science app skill
               -> Grant Foundry -> Med Auto Grant app skill
               -> Presentation Foundry -> redcube-ai app skill
+              -> Agent Foundry -> OPL Meta Agent
 
 Developer / operator path
   -> One Person Lab framework
@@ -95,6 +101,7 @@ Developer / operator path
           -> Research Foundry -> Med Auto Science app skill
           -> Grant Foundry -> Med Auto Grant app skill
           -> Presentation Foundry -> redcube-ai app skill
+          -> Agent Foundry -> OPL Meta Agent
 
 Execution unit:
   Codex CLI inside a stage
@@ -107,6 +114,7 @@ Integration/reference layer:
 
 | Product family | Active domain agent | Public role | Main outputs |
 | --- | --- | --- | --- |
+| `Agent Foundry` | [`OPL Meta Agent`](https://github.com/gaofeng21cn/opl-meta-agent) | Meta-agent for building and testing OPL-compatible agents | Agent baselines, Agent Lab suites, mechanism patch proposals |
 | `Research Foundry` | [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) | Independent medical research domain agent | Study workspaces, evidence packages, manuscripts, submission materials |
 | `Grant Foundry` | [`Med Auto Grant`](https://github.com/gaofeng21cn/med-autogrant) | Independent medical grant domain agent | Grant directions, proposal drafts, review packs, submission-ready packages |
 | `Presentation Foundry` | [`RedCube AI`](https://github.com/gaofeng21cn/redcube-ai) | Independent visual-deliverable domain agent | Slide decks, scripts, reviewable visual artifacts, export bundles |
@@ -116,6 +124,16 @@ Integration/reference layer:
 Future workstreams such as `IP Foundry`, `Award Foundry`, `Thesis Foundry`, and `Review Foundry` stay in definition until their domain package and public boundary are ready.
 
 ## Domain Lines
+
+[`OPL Meta Agent`](https://github.com/gaofeng21cn/opl-meta-agent) is the current active implementation on the `Agent Foundry` line.
+
+It focuses on meta-agent operations, including:
+
+- target-agent intent and boundary clarification
+- public-pattern research and stage decomposition
+- OPL-compatible agent package generation
+- Agent Lab suite generation and testing takeover
+- mechanism patch proposals for gated self-evolution
 
 [`Med Auto Science`](https://github.com/gaofeng21cn/med-autoscience) is the current active medical research implementation on the `Research Foundry` line.
 
@@ -159,6 +177,10 @@ alongside:
 
 `One Person Lab -> explicit RCA activation -> RedCube AI`
 
+alongside:
+
+`One Person Lab -> OPL Meta Agent -> new OPL-compatible agents`
+
 ## Research Focus
 
 My current work is centered on:
@@ -173,6 +195,7 @@ My current work is centered on:
 - Academic site: [fenggaolab.org](https://fenggaolab.org)
 - One Person Lab: [gaofeng21cn/one-person-lab](https://github.com/gaofeng21cn/one-person-lab)
 - One Person Lab App: [gaofeng21cn/one-person-lab-app](https://github.com/gaofeng21cn/one-person-lab-app)
+- OPL Meta Agent: [gaofeng21cn/opl-meta-agent](https://github.com/gaofeng21cn/opl-meta-agent)
 - Med Auto Science: [gaofeng21cn/med-autoscience](https://github.com/gaofeng21cn/med-autoscience)
 - Med Auto Grant: [gaofeng21cn/med-autogrant](https://github.com/gaofeng21cn/med-autogrant)
 - RedCube AI: [gaofeng21cn/redcube-ai](https://github.com/gaofeng21cn/redcube-ai)
