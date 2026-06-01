@@ -52,6 +52,21 @@ I work on medical AI for colorectal cancer and on One Person Lab: a stage-led sy
 | [Med Auto Science](https://github.com/gaofeng21cn/med-autoscience) | Medical research domain agent for study workspaces, evidence packages, manuscripts, and submission materials |
 | [Med Auto Grant](https://github.com/gaofeng21cn/med-autogrant) | Medical grant domain agent for direction screening, proposal drafting, review, and package export |
 | [RedCube AI](https://github.com/gaofeng21cn/redcube-ai) | Visual-deliverable domain agent for slide decks and audited presentation artifacts |
+| [OPL Flow](https://github.com/gaofeng21cn/opl-flow) | Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline |
+| [OPL Doc](https://github.com/gaofeng21cn/opl-doc) | Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup |
+
+## Codex Setup
+
+New-machine Codex setup starts here:
+
+[OPL Flow new-machine setup guide](https://github.com/gaofeng21cn/opl-flow/blob/main/docs/new-machine-codex-setup.md)
+
+Paste this into Codex on the new machine:
+
+```text
+请按 OPL Flow 帮我完成这台新机器的 OPL 全家桶安装配置。
+Source of truth: https://github.com/gaofeng21cn/opl-flow/blob/main/docs/new-machine-codex-setup.md
+```
 
 ## Focus
 
