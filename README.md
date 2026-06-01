@@ -57,15 +57,15 @@ I work on medical AI for colorectal cancer and on One Person Lab: a stage-led sy
 
 ## Codex Setup
 
-New-machine Codex setup starts here:
+New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/OMA agent surfaces, OPL Flow, OPL Doc, and companion tools starts here:
 
-[OPL Flow new-machine setup guide](https://github.com/gaofeng21cn/opl-flow/blob/main/docs/new-machine-codex-setup.md)
+[One Person Lab new-machine Codex bootstrap guide](https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md)
 
 Paste this into Codex on the new machine:
 
 ```text
-请按 OPL Flow 帮我完成这台新机器的 OPL 全家桶安装配置。
-Source of truth: https://github.com/gaofeng21cn/opl-flow/blob/main/docs/new-machine-codex-setup.md
+请按 One Person Lab 官方新机器指南，帮我完成这台机器的 OPL 智能体运行环境和 Codex 工作流全家桶安装配置。
+Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md
 ```
 
 ## Focus
