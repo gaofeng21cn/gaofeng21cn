@@ -64,7 +64,7 @@ New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/OMA agent surfaces, OPL
 Paste this into Codex on the new machine:
 
 ```text
-请按 One Person Lab 官方新机器指南，帮我完成这台机器的 OPL 智能体运行环境和 Codex 工作流全家桶安装配置。
+Please follow the official One Person Lab new-machine guide and set up this machine with the OPL agent runtime environment and the complete Codex workflow toolkit.
 Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md
 ```
 
