@@ -10,30 +10,55 @@
 
 <table>
   <tr>
-    <td width="16%" valign="top">
-      <strong>Academic Site</strong><br/>
-      <a href="https://fenggaolab.org">fenggaolab.org</a>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/one-person-lab">
+        <img src="assets/fontawesome/compass.svg" alt="" width="24" height="24" /><br/>
+        <strong>OPL Framework</strong><br/>
+        <code>One Person Lab</code>
+      </a><br/>
+      Runtime, activation, contracts, recovery, and projection.
     </td>
-    <td width="16%" valign="top">
-      <strong>OPL Framework</strong><br/>
-      <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/one-person-lab-app">
+        <img src="assets/fontawesome/desktop.svg" alt="" width="24" height="24" /><br/>
+        <strong>One Person Lab App</strong><br/>
+        <code>One Person Lab App</code>
+      </a><br/>
+      Desktop workbench and user-facing product surface.
     </td>
-    <td width="16%" valign="top">
-      <strong>OPL App</strong><br/>
-      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><code>One Person Lab App</code></a>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-meta-agent">
+        <img src="assets/fontawesome/robot.svg" alt="" width="24" height="24" /><br/>
+        <strong>Agent Foundry</strong><br/>
+        <code>OPL Meta Agent</code>
+      </a><br/>
+      Build, test, and improve OPL-compatible agents.
     </td>
-    <td width="16%" valign="top">
-      <strong>Agent Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><code>OPL Meta Agent</code></a>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/med-autoscience">
+        <img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /><br/>
+        <strong>Research Foundry</strong><br/>
+        <code>Med Auto Science</code>
+      </a><br/>
+      Medical research, evidence packages, and manuscripts.
     </td>
-    <td width="18%" valign="top">
-      <strong>Research + Grant Foundries</strong><br/>
-      <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
-      <a href="https://github.com/gaofeng21cn/med-autogrant"><code>Med Auto Grant</code></a>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/med-autogrant">
+        <img src="assets/fontawesome/file-signature.svg" alt="" width="24" height="24" /><br/>
+        <strong>Grant Foundry</strong><br/>
+        <code>Med Auto Grant</code>
+      </a><br/>
+      Proposal direction, drafting, review, and package export.
     </td>
-    <td width="18%" valign="top">
-      <strong>Presentation Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/redcube-ai">
+        <img src="assets/fontawesome/person-chalkboard.svg" alt="" width="24" height="24" /><br/>
+        <strong>Presentation Foundry</strong><br/>
+        <code>RedCube AI</code>
+      </a><br/>
+      Slide decks and audited presentation artifacts.
     </td>
   </tr>
 </table>
@@ -46,14 +71,14 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
 
 | Project | Role |
 | --- | --- |
-| [One Person Lab](https://github.com/gaofeng21cn/one-person-lab) | OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
-| [One Person Lab App](https://github.com/gaofeng21cn/one-person-lab-app) | Desktop workbench, installer, release assets, updater metadata, and user-facing product surface |
-| [OPL Meta Agent](https://github.com/gaofeng21cn/opl-meta-agent) | Agent Foundry for building, testing, and improving OPL-compatible agents |
-| [Med Auto Science](https://github.com/gaofeng21cn/med-autoscience) | Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials |
-| [Med Auto Grant](https://github.com/gaofeng21cn/med-autogrant) | Grant Foundry agent for direction screening, proposal drafting, review, and package export |
-| [RedCube AI](https://github.com/gaofeng21cn/redcube-ai) | Presentation Foundry agent for slide decks and audited presentation artifacts |
-| [OPL Flow](https://github.com/gaofeng21cn/opl-flow) | Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline |
-| [OPL Doc](https://github.com/gaofeng21cn/opl-doc) | Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup |
+| <a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="14" height="14" /> One Person Lab</a> | OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
+| <a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="14" height="14" /> One Person Lab App</a> | Desktop workbench, installer, release assets, updater metadata, and user-facing product surface |
+| <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="14" height="14" /> OPL Meta Agent</a> | Agent Foundry for building, testing, and improving OPL-compatible agents |
+| <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> Med Auto Science</a> | Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials |
+| <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="14" height="14" /> Med Auto Grant</a> | Grant Foundry agent for direction screening, proposal drafting, review, and package export |
+| <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="14" height="14" /> RedCube AI</a> | Presentation Foundry agent for slide decks and audited presentation artifacts |
+| <a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a> | Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline |
+| <a href="https://github.com/gaofeng21cn/opl-doc"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Doc</a> | Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup |
 
 ## Codex Setup
 
@@ -77,5 +102,5 @@ Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/re
 
 ## Links
 
-- Academic site: [fenggaolab.org](https://fenggaolab.org)
-- GitHub: [gaofeng21cn](https://github.com/gaofeng21cn)
+- Academic site: <a href="https://fenggaolab.org"><img src="assets/fontawesome/globe.svg" alt="" width="14" height="14" /> fenggaolab.org</a>
+- GitHub: <a href="https://github.com/gaofeng21cn"><img src="assets/fontawesome/github.svg" alt="" width="14" height="14" /> gaofeng21cn</a>
