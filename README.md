@@ -6,7 +6,7 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded medical AI and One Person Lab: a stage-led framework and desktop workbench for auditable knowledge delivery.</p>
+<p align="center">Building clinically grounded medical AI and One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for stage-led, auditable knowledge delivery.</p>
 
 <table>
   <tr>
@@ -27,12 +27,12 @@
       <a href="https://github.com/gaofeng21cn/opl-meta-agent"><code>OPL Meta Agent</code></a>
     </td>
     <td width="18%" valign="top">
-      <strong>Medical Agents</strong><br/>
+      <strong>Research + Grant Foundries</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       <a href="https://github.com/gaofeng21cn/med-autogrant"><code>Med Auto Grant</code></a>
     </td>
     <td width="18%" valign="top">
-      <strong>Visual Agent</strong><br/>
+      <strong>Presentation Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a>
     </td>
   </tr>
@@ -40,18 +40,18 @@
 
 ## Work
 
-I work on medical AI for colorectal cancer and on One Person Lab: a stage-led system for turning high-value knowledge work into recoverable, auditable expert stages. OPL connects a shared framework, a desktop workbench, and independent Foundry Agents for research, grants, presentations, and future professional workflows.
+I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on research, grants, presentations, agent building, and future professional workflows.
 
 ## Projects
 
 | Project | Role |
 | --- | --- |
-| [One Person Lab](https://github.com/gaofeng21cn/one-person-lab) | Stage-led framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
+| [One Person Lab](https://github.com/gaofeng21cn/one-person-lab) | OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
 | [One Person Lab App](https://github.com/gaofeng21cn/one-person-lab-app) | Desktop workbench, installer, release assets, updater metadata, and user-facing product surface |
-| [OPL Meta Agent](https://github.com/gaofeng21cn/opl-meta-agent) | Agent Foundry for building and testing OPL-compatible agents |
-| [Med Auto Science](https://github.com/gaofeng21cn/med-autoscience) | Medical research domain agent for study workspaces, evidence packages, manuscripts, and submission materials |
-| [Med Auto Grant](https://github.com/gaofeng21cn/med-autogrant) | Medical grant domain agent for direction screening, proposal drafting, review, and package export |
-| [RedCube AI](https://github.com/gaofeng21cn/redcube-ai) | Visual-deliverable domain agent for slide decks and audited presentation artifacts |
+| [OPL Meta Agent](https://github.com/gaofeng21cn/opl-meta-agent) | Agent Foundry for building, testing, and improving OPL-compatible agents |
+| [Med Auto Science](https://github.com/gaofeng21cn/med-autoscience) | Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials |
+| [Med Auto Grant](https://github.com/gaofeng21cn/med-autogrant) | Grant Foundry agent for direction screening, proposal drafting, review, and package export |
+| [RedCube AI](https://github.com/gaofeng21cn/redcube-ai) | Presentation Foundry agent for slide decks and audited presentation artifacts |
 | [OPL Flow](https://github.com/gaofeng21cn/opl-flow) | Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline |
 | [OPL Doc](https://github.com/gaofeng21cn/opl-doc) | Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup |
 
