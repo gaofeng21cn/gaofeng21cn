@@ -11,53 +11,35 @@
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/one-person-lab">
-        <img src="assets/fontawesome/compass.svg" alt="" width="24" height="24" /><br/>
-        <strong>OPL Framework</strong><br/>
-        <code>One Person Lab</code>
-      </a><br/>
+      <strong>OPL Framework</strong><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="18" height="18" /> <code>One Person Lab</code></a><br/>
       Runtime, activation, contracts, recovery, and projection.
     </td>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/one-person-lab-app">
-        <img src="assets/fontawesome/desktop.svg" alt="" width="24" height="24" /><br/>
-        <strong>One Person Lab App</strong><br/>
-        <code>One Person Lab App</code>
-      </a><br/>
+      <strong>One Person Lab App</strong><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="18" height="18" /> <code>One Person Lab App</code></a><br/>
       Desktop workbench and user-facing product surface.
     </td>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/opl-meta-agent">
-        <img src="assets/fontawesome/robot.svg" alt="" width="24" height="24" /><br/>
-        <strong>Agent Foundry</strong><br/>
-        <code>OPL Meta Agent</code>
-      </a><br/>
+      <strong>Agent Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="18" height="18" /> <code>OPL Meta Agent</code></a><br/>
       Build, test, and improve OPL-compatible agents.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/med-autoscience">
-        <img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /><br/>
-        <strong>Research Foundry</strong><br/>
-        <code>Med Auto Science</code>
-      </a><br/>
+      <strong>Research Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="18" height="18" /> <code>Med Auto Science</code></a><br/>
       Medical research, evidence packages, and manuscripts.
     </td>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/med-autogrant">
-        <img src="assets/fontawesome/file-signature.svg" alt="" width="24" height="24" /><br/>
-        <strong>Grant Foundry</strong><br/>
-        <code>Med Auto Grant</code>
-      </a><br/>
+      <strong>Grant Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="18" height="18" /> <code>Med Auto Grant</code></a><br/>
       Proposal direction, drafting, review, and package export.
     </td>
     <td width="33%" valign="top" align="center">
-      <a href="https://github.com/gaofeng21cn/redcube-ai">
-        <img src="assets/fontawesome/person-chalkboard.svg" alt="" width="24" height="24" /><br/>
-        <strong>Presentation Foundry</strong><br/>
-        <code>RedCube AI</code>
-      </a><br/>
+      <strong>Presentation Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="18" height="18" /> <code>RedCube AI</code></a><br/>
       Slide decks and audited presentation artifacts.
     </td>
   </tr>
@@ -69,16 +51,44 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
 
 ## Projects
 
-| Project | Role |
-| --- | --- |
-| <a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="14" height="14" /> One Person Lab</a> | OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination |
-| <a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="14" height="14" /> One Person Lab App</a> | Desktop workbench, installer, release assets, updater metadata, and user-facing product surface |
-| <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="14" height="14" /> OPL Meta Agent</a> | Agent Foundry for building, testing, and improving OPL-compatible agents |
-| <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> Med Auto Science</a> | Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials |
-| <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="14" height="14" /> Med Auto Grant</a> | Grant Foundry agent for direction screening, proposal drafting, review, and package export |
-| <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="14" height="14" /> RedCube AI</a> | Presentation Foundry agent for slide decks and audited presentation artifacts |
-| <a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a> | Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline |
-| <a href="https://github.com/gaofeng21cn/opl-doc"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Doc</a> | Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup |
+<table>
+  <tr>
+    <th width="24%">Project</th>
+    <th width="76%">Role</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="14" height="14" /> One Person Lab</a></td>
+    <td>OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="14" height="14" /> One Person Lab App</a></td>
+    <td>Desktop workbench, installer, release assets, updater metadata, and user-facing product surface</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="14" height="14" /> OPL Meta Agent</a></td>
+    <td>Agent Foundry for building, testing, and improving OPL-compatible agents</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> Med Auto Science</a></td>
+    <td>Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="14" height="14" /> Med Auto Grant</a></td>
+    <td>Grant Foundry agent for direction screening, proposal drafting, review, and package export</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="14" height="14" /> RedCube AI</a></td>
+    <td>Presentation Foundry agent for slide decks and audited presentation artifacts</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a></td>
+    <td>Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/opl-doc"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Doc</a></td>
+    <td>Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup</td>
+  </tr>
+</table>
 
 ## Codex Setup
 
