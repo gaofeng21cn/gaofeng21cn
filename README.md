@@ -11,35 +11,41 @@
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="24" height="24" /></a><br/>
       <strong>OPL Framework</strong><br/>
-      <a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="18" height="18" /> <code>One Person Lab</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab"><code>One Person Lab</code></a><br/>
       Runtime, activation, contracts, recovery, and projection.
     </td>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="24" height="24" /></a><br/>
       <strong>One Person Lab App</strong><br/>
-      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="18" height="18" /> <code>One Person Lab App</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab-app"><code>One Person Lab App</code></a><br/>
       Desktop workbench and user-facing product surface.
     </td>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Agent Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="18" height="18" /> <code>OPL Meta Agent</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/opl-meta-agent"><code>OPL Meta Agent</code></a><br/>
       Build, test, and improve OPL-compatible agents.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Research Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="18" height="18" /> <code>Med Auto Science</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       Medical research, evidence packages, and manuscripts.
     </td>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Grant Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="18" height="18" /> <code>Med Auto Grant</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/med-autogrant"><code>Med Auto Grant</code></a><br/>
       Proposal direction, drafting, review, and package export.
     </td>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Presentation Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="18" height="18" /> <code>RedCube AI</code></a><br/>
+      <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a><br/>
       Slide decks and audited presentation artifacts.
     </td>
   </tr>
