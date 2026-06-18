@@ -49,11 +49,23 @@
       Slide decks and audited presentation artifacts.
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="24" height="24" /></a><br/>
+      <strong>Book Foundry</strong><br/>
+      <a href="https://github.com/gaofeng21cn/opl-bookforge"><code>OPL BookForge</code></a><br/>
+      Storyline, manuscript, figures, tables, and export handoff.
+    </td>
+    <td width="33%" valign="top" align="center">
+    </td>
+    <td width="33%" valign="top" align="center">
+    </td>
+  </tr>
 </table>
 
 ## Work
 
-I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on research, grants, presentations, agent building, and future professional workflows.
+I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on research, grants, presentations, book writing, agent building, and future professional workflows.
 
 ## Projects
 
@@ -87,6 +99,10 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
     <td>Presentation Foundry agent for slide decks and audited presentation artifacts</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL BookForge</a></td>
+    <td>Book Foundry agent for storyline architecture, manuscript drafting, figure and table planning, style control, and export handoff</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a></td>
     <td>Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline</td>
   </tr>
@@ -98,7 +114,7 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
 
 ## Codex Setup
 
-New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/OMA agent surfaces, OPL Flow, OPL Doc, and companion tools starts here:
+New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/BookForge/OMA agent surfaces, OPL Flow, OPL Doc, and companion tools starts here:
 
 [One Person Lab new-machine Codex bootstrap guide](https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md)
 
@@ -114,6 +130,7 @@ Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/re
 - Clinically grounded AI for colorectal cancer
 - Human-auditable medical research and grant workflows
 - Stage-led systems for recoverable, auditable knowledge delivery
+- Book-length knowledge delivery with explicit storylines, style gates, and export handoff
 - Independent domain agents with clear authority boundaries
 
 ## Links
