@@ -6,7 +6,7 @@
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded medical AI and One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for stage-led, auditable knowledge delivery.</p>
+<p align="center">Building clinically grounded medical AI and One Person Lab: OPL Framework, OPL App, OPL Cloud, OPL Health Platform, and Foundry Agents for stage-led, auditable knowledge delivery.</p>
 
 <table>
   <tr>
@@ -23,19 +23,33 @@
       Desktop workbench and user-facing product surface.
     </td>
     <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/one-person-lab-cloud"><img src="assets/fontawesome/diagram-project.svg" alt="" width="24" height="24" /></a><br/>
+      <strong>OPL Cloud</strong><br/>
+      <a href="https://github.com/gaofeng21cn/one-person-lab-cloud"><code>OPL Cloud</code></a><br/>
+      Frontier AI gateway, workspace, console, resource fabric, and evidence ledger.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-health-platform"><img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /></a><br/>
+      <strong>OPL Health Platform</strong><br/>
+      <a href="https://github.com/gaofeng21cn/opl-health-platform"><code>OPL Health Platform</code></a><br/>
+      Medical meta-agent platform for hospitals.
+    </td>
+    <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Agent Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/opl-meta-agent"><code>OPL Meta Agent</code></a><br/>
       Build, test, and improve OPL-compatible agents.
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Research Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       Medical research, evidence packages, and manuscripts.
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Grant Foundry</strong><br/>
@@ -48,24 +62,18 @@
       <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a><br/>
       Slide decks and audited presentation artifacts.
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Book Foundry</strong><br/>
-      <a href="https://github.com/gaofeng21cn/opl-bookforge"><code>OPL BookForge</code></a><br/>
-      Storyline, manuscript, figures, tables, and export handoff.
-    </td>
-    <td width="33%" valign="top" align="center">
-    </td>
-    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-bookforge"><code>OPL Book Forge</code></a><br/>
+      Storylines, chapter drafts, figure/table plans, and owner-gated export handoff.
     </td>
   </tr>
 </table>
 
 ## Work
 
-I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, One Person Lab App, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on research, grants, presentations, book writing, agent building, and future professional workflows.
+I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, OPL App, OPL Cloud, OPL Health Platform, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on cloud infrastructure, hospital-facing medical meta-agent platforms, research, grants, presentations, books, agent building, and future professional workflows.
 
 ## Projects
 
@@ -81,6 +89,14 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
   <tr>
     <td><a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="14" height="14" /> One Person Lab App</a></td>
     <td>Desktop workbench, installer, release assets, updater metadata, and user-facing product surface</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/one-person-lab-cloud"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Cloud</a></td>
+    <td>Cloud infrastructure for AI gateway access, online workspaces, console governance, resource fabric, usage, and evidence records</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/gaofeng21cn/opl-health-platform"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> OPL Health Platform</a></td>
+    <td>Hospital-facing medical meta-agent platform built on OPL Cloud, with medical knowledge, clinical rules, tool packs, review, and deployment planning</td>
   </tr>
   <tr>
     <td><a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="14" height="14" /> OPL Meta Agent</a></td>
@@ -99,8 +115,8 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
     <td>Presentation Foundry agent for slide decks and audited presentation artifacts</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL BookForge</a></td>
-    <td>Book Foundry agent for storyline architecture, manuscript drafting, figure and table planning, style control, and export handoff</td>
+    <td><a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Book Forge</a></td>
+    <td>Book Foundry agent for storylines, chapter drafts, figure/table plans, style control, and owner-gated export handoff</td>
   </tr>
   <tr>
     <td><a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a></td>
@@ -114,7 +130,7 @@ I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework,
 
 ## Codex Setup
 
-New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/BookForge/OMA agent surfaces, OPL Flow, OPL Doc, and companion tools starts here:
+New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/OMA/Book Forge agent surfaces, OPL Flow, OPL Doc, and companion tools starts here:
 
 [One Person Lab new-machine Codex bootstrap guide](https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md)
 
@@ -129,6 +145,8 @@ Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/re
 
 - Clinically grounded AI for colorectal cancer
 - Human-auditable medical research and grant workflows
+- Cloud infrastructure for OPL workspaces, resources, usage, and evidence
+- Hospital-facing medical meta-agent platforms
 - Stage-led systems for recoverable, auditable knowledge delivery
 - Book-length knowledge delivery with explicit storylines, style gates, and export handoff
 - Independent domain agents with clear authority boundaries
