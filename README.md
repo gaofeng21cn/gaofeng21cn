@@ -8,6 +8,8 @@
 </p>
 <p align="center">Building clinically grounded AI for colorectal cancer and agent-first systems that turn research and professional knowledge work into recoverable, human-auditable workflows.</p>
 
+<br/>
+
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
@@ -71,7 +73,9 @@
   </tr>
 </table>
 
-Supporting tools: [OPL Flow](https://github.com/gaofeng21cn/opl-flow) for reusable Codex workflows · [OPL Doc](https://github.com/gaofeng21cn/opl-doc) for developer-document lifecycle governance
+<p align="center">
+  <sub>Supporting tools: <a href="https://github.com/gaofeng21cn/opl-flow">OPL Flow</a> for reusable Codex workflows · <a href="https://github.com/gaofeng21cn/opl-doc">OPL Doc</a> for developer-document lifecycle governance</sub>
+</p>
 
 ## Codex Setup
 
@@ -81,12 +85,13 @@ New-machine Codex setup for the OPL runtime, MAS/MAG/RCA/OMA/Book Forge agent su
 
 Paste this into Codex on the new machine:
 
-```text
-Please follow the official One Person Lab new-machine guide and set up this machine with the OPL agent runtime environment and the complete Codex workflow toolkit.
-Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md
-```
+> Please follow the official One Person Lab new-machine guide and set up this machine with the OPL agent runtime environment and the complete Codex workflow toolkit.<br/>
+> Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md
 
 ## Links
 
-- Academic site: <a href="https://fenggaolab.org"><img src="assets/fontawesome/globe.svg" alt="" width="14" height="14" /> fenggaolab.org</a>
-- GitHub: <a href="https://github.com/gaofeng21cn"><img src="assets/fontawesome/github.svg" alt="" width="14" height="14" /> gaofeng21cn</a>
+<p align="center">
+  Academic site: <a href="https://fenggaolab.org"><img src="assets/fontawesome/globe.svg" alt="" width="14" height="14" /> fenggaolab.org</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  GitHub: <a href="https://github.com/gaofeng21cn"><img src="assets/fontawesome/github.svg" alt="" width="14" height="14" /> gaofeng21cn</a>
+</p>
