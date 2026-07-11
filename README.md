@@ -1,12 +1,12 @@
 <h1 align="center">Feng GAO</h1>
 
-<p align="center"><strong>Professor of Medical AI @ SYSU</strong></p>
+<p align="center"><strong>Professor of Medical AI · Builder of One Person Lab</strong></p>
 <p align="center">
   <a href="https://tokscale.ai/u/gaofeng21cn">
     <img src="https://tokscale.ai/api/embed/gaofeng21cn/svg?theme=light&compact=1" alt="Tokscale Stats" width="640" />
   </a>
 </p>
-<p align="center">Building clinically grounded medical AI and One Person Lab: OPL Framework, OPL App, OPL Cloud, OPL Health Platform, and Foundry Agents for stage-led, auditable knowledge delivery.</p>
+<p align="center">Building clinically grounded AI for colorectal cancer and agent-first systems that turn research and professional knowledge work into recoverable, human-auditable workflows.</p>
 
 <table>
   <tr>
@@ -60,7 +60,7 @@
       <a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="24" height="24" /></a><br/>
       <strong>Presentation Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/redcube-ai"><code>RedCube AI</code></a><br/>
-      Slide decks and audited presentation artifacts.
+      Visual deliverables for presentations and social media.
     </td>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="24" height="24" /></a><br/>
@@ -71,62 +71,7 @@
   </tr>
 </table>
 
-## Work
-
-I work on medical AI for colorectal cancer and on One Person Lab: OPL Framework, OPL App, OPL Cloud, OPL Health Platform, and Foundry Agents for turning high-value knowledge work into recoverable, auditable expert stages. The product family currently centers on cloud infrastructure, hospital-facing medical meta-agent platforms, research, grants, presentations, books, agent building, and future professional workflows.
-
-## Projects
-
-<table>
-  <tr>
-    <th width="24%">Project</th>
-    <th width="76%">Role</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/one-person-lab"><img src="assets/fontawesome/compass.svg" alt="" width="14" height="14" /> One Person Lab</a></td>
-    <td>OPL Framework for runtime, activation, contracts, progress projection, recovery, and domain-agent coordination</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/one-person-lab-app"><img src="assets/fontawesome/desktop.svg" alt="" width="14" height="14" /> One Person Lab App</a></td>
-    <td>Desktop workbench, installer, release assets, updater metadata, and user-facing product surface</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/one-person-lab-cloud"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Cloud</a></td>
-    <td>Cloud infrastructure for AI gateway access, online workspaces, console governance, resource fabric, usage, and evidence records</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-health-platform"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> OPL Health Platform</a></td>
-    <td>Hospital-facing medical meta-agent platform built on OPL Cloud, with medical knowledge, clinical rules, tool packs, review, and deployment planning</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-meta-agent"><img src="assets/fontawesome/robot.svg" alt="" width="14" height="14" /> OPL Meta Agent</a></td>
-    <td>Agent Foundry for building, testing, and improving OPL-compatible agents</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="14" height="14" /> Med Auto Science</a></td>
-    <td>Research Foundry agent for study workspaces, evidence packages, manuscripts, and submission materials</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/med-autogrant"><img src="assets/fontawesome/file-signature.svg" alt="" width="14" height="14" /> Med Auto Grant</a></td>
-    <td>Grant Foundry agent for direction screening, proposal drafting, review, and package export</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/redcube-ai"><img src="assets/fontawesome/person-chalkboard.svg" alt="" width="14" height="14" /> RedCube AI</a></td>
-    <td>Presentation Foundry agent for slide decks and audited presentation artifacts</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-bookforge"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Book Forge</a></td>
-    <td>Book Foundry agent for storylines, chapter drafts, figure/table plans, style control, and owner-gated export handoff</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="14" height="14" /> OPL Flow</a></td>
-    <td>Reusable Codex workflow profile for Direct / Inline / Durable work, role prompts, subagent contracts, and verification discipline</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gaofeng21cn/opl-doc"><img src="assets/fontawesome/book-open.svg" alt="" width="14" height="14" /> OPL Doc</a></td>
-    <td>Codex plugin for OPL-native developer-document lifecycle governance and active-truth cleanup</td>
-  </tr>
-</table>
+Supporting tools: [OPL Flow](https://github.com/gaofeng21cn/opl-flow) for reusable Codex workflows · [OPL Doc](https://github.com/gaofeng21cn/opl-doc) for developer-document lifecycle governance
 
 ## Codex Setup
 
@@ -140,16 +85,6 @@ Paste this into Codex on the new machine:
 Please follow the official One Person Lab new-machine guide and set up this machine with the OPL agent runtime environment and the complete Codex workflow toolkit.
 Source of truth: https://github.com/gaofeng21cn/one-person-lab/blob/main/docs/references/current-support/opl-new-machine-codex-bootstrap.md
 ```
-
-## Focus
-
-- Clinically grounded AI for colorectal cancer
-- Human-auditable medical research and grant workflows
-- Cloud infrastructure for OPL workspaces, resources, usage, and evidence
-- Hospital-facing medical meta-agent platforms
-- Stage-led systems for recoverable, auditable knowledge delivery
-- Book-length knowledge delivery with explicit storylines, style gates, and export handoff
-- Independent domain agents with clear authority boundaries
 
 ## Links
 
