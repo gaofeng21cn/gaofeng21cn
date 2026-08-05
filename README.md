@@ -42,16 +42,16 @@
       <a href="https://github.com/gaofeng21cn/opl-flow"><img src="assets/fontawesome/diagram-project.svg" alt="" width="24" height="24" /></a><br/>
       <strong>OPL Flow</strong><br/>
       <a href="https://github.com/gaofeng21cn/opl-flow"><code>OPL Flow</code></a><br/>
-      Coordination across tasks, repositories, and machines, from one App to a managed AI Fleet.
+      The Codex experience baseline and durable work-coordination layer, from one Codex to an Agent-native AI Fleet.
     </td>
   </tr>
 </table>
 
-## From One App to an AI Fleet
+## From One Codex to an AI Fleet
 
 <p align="center">
   <a href="https://github.com/gaofeng21cn/opl-flow">
-    <img src="https://raw.githubusercontent.com/gaofeng21cn/opl-flow/main/assets/branding/opl-flow-ai-fleet.png" alt="OPL Flow coordinates durable AI work across tasks, repositories, and Fleet nodes" width="100%" />
+    <img src="https://raw.githubusercontent.com/gaofeng21cn/opl-flow/main/assets/branding/opl-flow-ai-fleet-v3.png" alt="An Agent objective flows from the OPL Ledger through OPL Flow and OPL Fleet's Agent-native control plane to heterogeneous execution nodes, with Linear, GitHub, and local Codex as optional owner-facing surfaces" width="100%" />
   </a>
 </p>
 
