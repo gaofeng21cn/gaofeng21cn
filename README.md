@@ -18,6 +18,8 @@
   <a href="https://github.com/gaofeng21cn/opl-fleet-cockpit"><strong>OPL Fleet</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/gaofeng21cn/med-autoscience"><strong>Med Auto Science</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/gaofeng21cn/opl-medcast"><strong>OPL Med Cast</strong></a>
 </p>
 
 <br/>
@@ -51,7 +53,7 @@
 
 <p align="center">
   <a href="https://github.com/gaofeng21cn/opl-flow">
-    <img src="https://raw.githubusercontent.com/gaofeng21cn/opl-flow/main/assets/branding/opl-flow-ai-fleet-v3.png" alt="An Agent objective flows from the OPL Ledger through OPL Flow and OPL Fleet's Agent-native control plane to heterogeneous execution nodes, with Linear, GitHub, and local Codex as optional owner-facing surfaces" width="100%" />
+    <img src="assets/branding/opl-flow-ai-fleet-v3.webp" alt="An Agent objective flows from the OPL Ledger through OPL Flow and OPL Fleet's Agent-native control plane to heterogeneous execution nodes, with Linear, GitHub, and local Codex as optional owner-facing surfaces" width="100%" />
   </a>
 </p>
 
@@ -67,12 +69,14 @@
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /></a><br/>
-      <strong>Med Auto Science · Research Foundry</strong><br/>
+  <strong>Med Auto Science · Research Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       Clinically grounded research from study questions and evidence to manuscript-ready work.
     </td>
   </tr>
 </table>
+
+<p align="center"><strong>Supporting operations</strong> · <a href="https://github.com/gaofeng21cn/opl-netfleet">OPL NetFleet</a> for network and exit routing · <a href="https://github.com/gaofeng21cn/opl-skills">OPL Skills</a> for reusable Codex workflows</p>
 
 ## Start Here
 
@@ -94,9 +98,10 @@
 - **Presentation Foundry** · [RedCube AI](https://github.com/gaofeng21cn/redcube-ai) creates visual deliverables for presentations and social media.
 - **Book Foundry** · [OPL Book Forge](https://github.com/gaofeng21cn/opl-bookforge) develops storylines, chapters, figures, tables, and owner-gated export packages.
 - **Health Platform** · [OPL Health Platform](https://github.com/gaofeng21cn/opl-health-platform) brings medical meta-agent capabilities to hospital environments.
+- **Med Cast** · [OPL Med Cast](https://github.com/gaofeng21cn/opl-medcast) turns medical evidence into reviewable science-communication video packages.
 
 <p align="center">
-  <sub>Infrastructure: <a href="https://github.com/gaofeng21cn/one-person-lab-cloud">OPL Cloud</a> for gateway, workspace, console, and evidence services · <a href="https://github.com/gaofeng21cn/opl-doc">OPL Doc</a> for developer-document lifecycle governance</sub>
+  <sub>Infrastructure: <a href="https://github.com/gaofeng21cn/one-person-lab-cloud">OPL Cloud</a> for gateway, workspace, console, and evidence services</sub>
 </p>
 
 ## Links
