@@ -19,7 +19,7 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/gaofeng21cn/med-autoscience"><strong>Med Auto Science</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/gaofeng21cn/opl-medcast"><strong>OPL Med Cast</strong></a>
+  <a href="https://github.com/gaofeng21cn/opl-netfleet"><strong>OPL NetFleet</strong></a>
 </p>
 
 <br/>
@@ -57,9 +57,11 @@
   </a>
 </p>
 
+## Featured Projects
+
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/opl-fleet-cockpit"><img src="assets/fontawesome/diagram-project.svg" alt="" width="24" height="24" /></a><br/>
       <strong>OPL Fleet · Multi-machine Operations</strong><br/>
       <a href="https://github.com/gaofeng21cn/opl-fleet-agent"><code>Fleet Agent</code></a>
@@ -67,16 +69,20 @@
       <a href="https://github.com/gaofeng21cn/opl-fleet-cockpit"><code>Fleet Cockpit</code></a><br/>
       Run and observe OPL across multiple machines from one place: Flow coordinates work, Agent reports node activity, and Cockpit exposes live fleet state.
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="33%" valign="top" align="center">
       <a href="https://github.com/gaofeng21cn/med-autoscience"><img src="assets/fontawesome/dna.svg" alt="" width="24" height="24" /></a><br/>
-  <strong>Med Auto Science · Research Foundry</strong><br/>
+      <strong>Med Auto Science · Research Foundry</strong><br/>
       <a href="https://github.com/gaofeng21cn/med-autoscience"><code>Med Auto Science</code></a><br/>
       Clinically grounded research from study questions and evidence to manuscript-ready work.
     </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/gaofeng21cn/opl-netfleet"><img src="assets/fontawesome/globe.svg" alt="" width="24" height="24" /></a><br/>
+      <strong>OPL NetFleet · Network Management</strong><br/>
+      <a href="https://github.com/gaofeng21cn/opl-netfleet"><code>OPL NetFleet</code></a><br/>
+      A modular OpenWrt proxy and network platform: manage Mihomo, select routes across providers, and recover from failures in one interface.
+    </td>
   </tr>
 </table>
-
-<p align="center"><strong>Supporting operations</strong> · <a href="https://github.com/gaofeng21cn/opl-netfleet">OPL NetFleet</a> for network and exit routing · <a href="https://github.com/gaofeng21cn/opl-skills">OPL Skills</a> for reusable Codex workflows</p>
 
 ## Start Here
 
